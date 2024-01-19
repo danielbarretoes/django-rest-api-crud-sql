@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 DEBUG = True
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = ["https://http://localhost:5173/"]
+ALLOWED_HOSTS = ["https://http://localhost:5173","https://danielbarreto-todo-react-typescript.onrender.com"]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 
